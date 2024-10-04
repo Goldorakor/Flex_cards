@@ -1,0 +1,74 @@
+
+/* copié collé depuis le fichier style_archive.css, impossible à récupérer depuis le site internet */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Source+Code+Pro:wght@300&display=swap');
+
+/* on commence par bien calibré la page pour éviter tout comportement indésirable */
+* { 
+    margin: 0;  /* marge externe : raccourci m0 */
+    padding: 0;  /* marge interne : raccourci p0 */
+    box-sizing: border-box;  /* éléments seront traités avec les bordures qu'on leur applique */
+    font-family: "Poppins"; /* pour définir la police d'écriture */
+}
+
+#container {
+    display : flex;
+    flex-direction: row;  /* je préfère le mettre pour bien afficher la propriété et sa valeur, même si elle est là par défaut dans notre cas */
+    min-height : 100vh;  /* v pour viewport = ensemble de la page et h pour height = hauteur */
+    background: rgba(68, 117, 136, 0.548);  /* couleur de fond */
+    justify-content: center; /* alignement horizontal car flex-direction = row */ /* propriété de flexbox */
+    align-items: center;  /* alignement vertical car flex-direction = row */ /* propriété de flexbox */
+    gap : 20px;  /* propriété de flexbox pour insérer un espace entre nos cards */
+}
+
+.card {
+    background: #ffffff;  /* je choisis l'écriture héxadécimale */
+    width : 300px;  /* attention : pas d'espace entre 300 et px */
+    border-radius: 10px;
+    /* border : 1px solid black;  on enlève la propriété devenue inutile : sert juste à bien visualiser */ 
+    /* pas de hauteur car cette carte s'adaptera à ce qu'on mettra dedans, on ne veut pas la contraindre sur ce paramètre */
+    /* overflow: hidden; cette ligne évite de rogner les coins hauts de l'image ligne 46 : meilleure méthode ! */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;  /* copié collé #24 de https://getcssscan.com/css-box-shadow-examples */
+    transition : 0.5s;  /* notre effet 'transform' dans .card:hover sera moins brutal - à mettre dans .card et non dans .card:hover ! */
+}
+
+.card:hover {
+    transform: translateY(-20px);  /* selon l'axe Y et faire remonter de 20px - on peut mettre plusieurs axes dans la même ppté */
+    /* transform: scale (1.1) pour zoomer ou scale (0.9) pour dézoomer */
+}
+
+.card-header {
+    height : 200px;
+}
+
+.card-header img {  /* permet de ne cibler que les images du cart-header */
+    width : 100%;  /* on veut que l'image prenne 100% de la largeur de son parent */
+    height: 100%;
+    border-radius: 10px 10px 0 0;  /* il faut rogner les coins hauts de l'image */
+    object-fit : cover;  /* on perd une partie de l'image mais elle ne se déforme pas */
+    filter : grayscale(1); /* 1 pour avoir du gris à 100% */
+    transition : 2s;  /* pas d'espace entre '3' et 's' - on passe de gris à couleur (et inversement) de façon plus progressive */
+}
+
+/* pas toujours besoin de javascript grâce à des fonctionnalités de CSS récentes */
+
+.card-header img:hover {   /* :hover est une pseudo-class */
+    filter : grayscale(0);  /* au survol par le curseur de la souris, on appliquera un filtre gris de zéro, donc une image entièrement en couleur */
+}
+
+
+.card-text {
+    padding: 30px;  /* marge interne - avec choix possibles padding: 10px 20px 15 px 40 px; : haut droite bas gauche */
+}
+
+.card-text h1 {
+    font-size: 25px;  /* taille du texte */
+    margin-bottom: 10px;
+    font-weight: 700;  /* choix de la police importée Poppins de 100 à 900 */
+}
+
+.card-text p {
+    font-size: 14px;
+    color: rgb(147, 147, 147);  /* couleur du texte */
+    /* site utile pour choisir des polices de caractères https://fonts.google.com/ */
+    font-weight: 300;
+}
