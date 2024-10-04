@@ -35,9 +35,10 @@ Veillez à adopter l'arborescence suivante :
 
 
 Pour télécharger ou utiliser une Google Font au sein d'un projet web :
- https://fonts.google.com/specimen/Poppins
+- https://fonts.google.com/specimen/Poppins
+
 Pour appliquer un "box-shadow" (ombres) sur un élément
- https://getcssscan.com/css-box-shadow-examples
+- https://getcssscan.com/css-box-shadow-examples
 
 <p align='center'>
 <a href="https://www.linkedin.com/in/michael-heid-846663329/"><img height="150" src="https://github.com/Goldorakor/Flex_cards/blob/main/img/GitHub_04.jpg?raw=true"></a>
