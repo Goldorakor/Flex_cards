@@ -11,7 +11,7 @@
 }
 
 #container {
-    display : flex;
+    display : flex;  /* on pourra utiliser les propriétés flexbox */
     flex-direction: row;  /* je préfère le mettre pour bien afficher la propriété et sa valeur, même si elle est là par défaut dans notre cas */
     min-height : 100vh;  /* v pour viewport = ensemble de la page et h pour height = hauteur */
     background: rgba(68, 117, 136, 0.548);  /* couleur de fond */
