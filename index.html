@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- il faut taper '!' et faire entrée et vscode nous déclare la 'partie HTML basique' automatiquement -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">  <!-- on tape link, on cherche css dans le menu déroulant et la ligne de code se développe mais attention au chemin du fichier css ! -->
+    <title>Card flexbox</title>
+</head>
+<body>
+
+    <!-- raccourci écriture : 'div#container' -> '<div id="container"></div>' -->
+    <!-- raccourci écriture : 'div.container' -> '<div class="container"></div>' -->
+
+    <div id="container"> <!-- bonne pratique de partir d'une div principale qui va englober tout le contenu de la page, avec un 'id' car élément unique non réutilisé -->
+
+        <div class="card"> <!-- on choisit une 'class' car on aura plusieurs occurences de ces éléments sur notre page : ici, class pour la carte complète -->
+            <div class="card-header"> <!-- ici, class pour le header de la carte -->
+                <img src="image/image1.png" alt="description image1">
+            </div>
+            <div class="card-text"> <!-- ici, class pour le texte de la carte -->
+                <h1>Article 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis quibusdam possimus! Porro, nulla voluptatem?</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="image/image2.png" alt="description image2">
+            </div>
+            <div class="card-text">
+                <h1>Article 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis quibusdam possimus! Porro, nulla voluptatem?</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="image/image3.png" alt="description image3">
+            </div>
+            <div class="card-text">
+                <h1>Article 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis quibusdam possimus! Porro, nulla voluptatem?</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
