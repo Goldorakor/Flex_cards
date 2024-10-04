@@ -1,6 +1,5 @@
 # Flex_cards
 
-Exercice 
 
 ## En vous basant sur les ressources données, vous réalisez la page web suivante :
 
