@@ -5,7 +5,7 @@ Exercice
 ## En vous basant sur les ressources données, vous réalisez la page web suivante :
 
 <p align='center'>
-<a href="https://www.linkedin.com/in/michael-heid-846663329/"><img height="150" src="https://github.com/Goldorakor/Flex_cards/blob/main/img/GitHub_01.jpg?raw=true"></a>
+<a href="https://www.linkedin.com/in/michael-heid-846663329/"><img height="200" src="https://github.com/Goldorakor/Flex_cards/blob/main/img/GitHub_01.jpg?raw=true"></a>
 </p>
 
 Chaque "card" a une largeur de 300px, un arrondi (border-radius) de 10px.
@@ -25,7 +25,7 @@ Les 3 cartes sont centrées horizontalement et verticalement.
 Vous avez à votre disposition le fichier HTML brut et les images.
 
 <p align='center'>
-<a href="https://www.linkedin.com/in/michael-heid-846663329/"><img height="150" src="https://github.com/Goldorakor/Flex_cards/blob/main/img/GitHub_02.jpg?raw=true"></a>
+<a href="https://www.linkedin.com/in/michael-heid-846663329/"><img height="300" src="https://github.com/Goldorakor/Flex_cards/blob/main/img/GitHub_02.jpg?raw=true"></a>
 </p>
 
 Veillez à adopter l'arborescence suivante :
