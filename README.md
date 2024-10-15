@@ -1,7 +1,6 @@
-# Flex_cards
+<h1>Flex_cards</h1>
 
-
-## En vous basant sur les ressources données, vous réalisez la page web suivante :
+<h2>En vous basant sur les ressources données, vous réalisez la page web suivante :</h2>
 
 <p align='center'>
 <a href="https://www.linkedin.com/in/michael-heid-846663329/"><img height="200" src="https://github.com/Goldorakor/Flex_cards/blob/main/img/GitHub_01.jpg?raw=true"></a>
